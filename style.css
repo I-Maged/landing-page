@@ -63,7 +63,39 @@ button {
   border: none;
   cursor: pointer;
 }
-img {
+.header-image img {
   width: 400px;
   height: auto;
+}
+.info {
+  padding: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-header {
+  color: var(--dark);
+  font-size: 36px;
+  padding-bottom: 36px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-box {
+  height: 120px;
+  width: 100px;
+  margin-bottom: 12px;
+  border: 4px solid var(--blue);
 }
