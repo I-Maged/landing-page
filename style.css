@@ -14,7 +14,7 @@ body {
 
 .hero {
   background-color: var(--dark);
-  padding: 24px 170px;
+  padding: 24px 175px;
 }
 
 .menu {
@@ -68,7 +68,7 @@ button {
   height: auto;
 }
 .info {
-  padding: 50px 170px;
+  padding: 75px 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +76,7 @@ button {
 .info-header {
   color: var(--dark);
   font-size: 36px;
-  padding-bottom: 36px;
+  padding-bottom: 52px;
 }
 
 .cards {
@@ -98,4 +98,17 @@ button {
   width: 100px;
   margin-bottom: 12px;
   border: 4px solid var(--blue);
+}
+
+.quote-section {
+  padding: 75px 175px;
+  background-color: var(--secondary-light);
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+}
+.quote-teller {
+  font-size: 24px;
+  text-align: right;
 }
